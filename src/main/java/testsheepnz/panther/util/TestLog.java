@@ -6,6 +6,9 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -22,23 +25,30 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestLog {
     private GenerateStringFromTime generateString;
-    protected TestProperties testProperties;
+    private TestProperties testProperties;
     //private FileWriter fileWriter;
     private String fileName;
 
+    private String fileNameWithHTML;
+    private static final String HTML_EXTENSION = ".html";
+
     private static final String IMG_FOLDER = "img";
 
-
+    /*
+     * The Test log is created by @BeforeClass of the Parent BaseClass
+     * Consequentally, the file will need to be moved (see appendLogFileNameAccordingToTestsRun below)
+     */
     public TestLog(TestProperties properties) {
         generateString = new GenerateStringFromTime();
         testProperties = properties;
 
         String uniqueName = generateString.getUniqueName();
         String testLogStr = "Test log " + generateString.getCurrentDate();
-        fileName = testProperties.getScreenshotsPath() + "/" + uniqueName + "-" + testLogStr + ".html";
+        fileName = testProperties.getScreenshotsPath() + "/" + uniqueName + "-" + testLogStr;
+        fileNameWithHTML = fileName + ".html";
 
         try {
-            FileWriter fileWriter = new FileWriter(fileName);
+            FileWriter fileWriter = new FileWriter(fileNameWithHTML);
             fileWriter.write("<!DOCTYPE html>");
             fileWriter.write("<html>");
             fileWriter.write("\t<head>");
@@ -58,9 +68,20 @@ public class TestLog {
         }
     }
 
+    public void appendLogFileNameAccordingToTestsRun(String calledFrom) {
+        String oldFileLocation = fileNameWithHTML;
+        fileNameWithHTML = fileName + "-" + calledFrom + ".html";
+
+        try {
+            Path temp = Files.move(Paths.get(oldFileLocation), Paths.get(fileNameWithHTML));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     public void closeLog() {
         try {
-            FileWriter fileWriter = new FileWriter(fileName, true);
+            FileWriter fileWriter = new FileWriter(fileNameWithHTML, true);
             fileWriter.write("\t\t</table>");
             fileWriter.write("    </body>");
             fileWriter.write("</html>");
@@ -72,7 +93,7 @@ public class TestLog {
 
     public void openTable(String testName) {
         try {
-            FileWriter fileWriter = new FileWriter(fileName, true);
+            FileWriter fileWriter = new FileWriter(fileNameWithHTML, true);
             fileWriter.write("\t\t<h2>Test: " + testName + "</h2>");
             fileWriter.write("\t\t<table class=\"table table-hover table-dark\" style=\"width:100%\">");
             fileWriter.write("\t\t<tr>");
@@ -88,7 +109,7 @@ public class TestLog {
 
     public void closeTable() {
         try {
-            FileWriter fileWriter = new FileWriter(fileName, true);
+            FileWriter fileWriter = new FileWriter(fileNameWithHTML, true);
             fileWriter.write("\t\t</table>");
             fileWriter.close();
         } catch (Exception e) {
@@ -112,7 +133,7 @@ public class TestLog {
         //add screenshot and details to log
 
         try {
-            FileWriter fileWriter = new FileWriter(fileName, true);
+            FileWriter fileWriter = new FileWriter(fileNameWithHTML, true);
             fileWriter.write("\t\t<tr>");
             fileWriter.write("\t\t\t<td>"+generateString.getJustTime()+"</td>");
             fileWriter.write("\t\t\t<td>"+description+"</td>");

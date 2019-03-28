@@ -13,10 +13,16 @@ public class EquipmentPage extends BasePage {
 
     //Define the IDs ...
     private static final String EQUIPMENT_FORM = "equipmentForm";
+    private static final String EQUIPMENT_ERROR_MSG = "initErrorMsg";
     private static final String INITIAL_FUEL_FIELD = "initialFuel";
     private static final String NUM_MISSILES_DROPDOWN = "numMissiles";
+    private static final String NUM_DUMB_BOMB_DROPDOWN = "numDumbBomb";
+    private static final String RECON_POD_CHECKBOX = "reconPod";
+    private static final String INTELLI_BOMB_CHECKBOX = "intelliBomb";
+    private static final String FUEL_TANK_CHECKBOX = "fuelTank";
 
     private static final String LOAD_BUTTON = "setEquipmentButton";
+
 
     public EquipmentPage(SeleniumInstance test) {
         super(test);
@@ -26,6 +32,14 @@ public class EquipmentPage extends BasePage {
     public void waitForPage() {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(EQUIPMENT_FORM)));
     }
+
+    //Error field
+    @FindBy(id = EQUIPMENT_ERROR_MSG)
+    private WebElement errorMessage;
+
+    public String getErrorMessage() { return errorMessage.getText();}
+
+    public Boolean errorMessageIsBlank() { return this.getErrorMessage().isEmpty(); }
 
     //Fuel field
     @FindBy(id = INITIAL_FUEL_FIELD)
@@ -64,20 +78,69 @@ public class EquipmentPage extends BasePage {
         }
     }
 
-    public String getNumMissile() {
-        return numMissilesDropdown.getText();
+    public int getNumMissile() {
+        return Integer.parseInt(numMissilesDropdown.getAttribute("value"));
     }
 
-    /*
-    @FindBy(id = LOGOUT_FORM_LOGOUT_BTN)
-    private WebElement logoutButton;
+    //Dumb bombs
+    @FindBy(id = NUM_DUMB_BOMB_DROPDOWN)
+    private WebElement numDumbBombDropdown;
 
-    public void clickIvsRemoveYourIdentityButton() {
-        WebElement element = getElementById(REMOVE_YOUR_IDENTITY);
-        logButtonClick(AttributeEnum.NAME, REMOVE_YOUR_IDENTITY);
-        element.click();
+    public void setNumDumbBomb(final int numDumbBomb) {
+        Select dropdown = new Select(numDumbBombDropdown);
+        dropdown.selectByIndex(numDumbBomb);
     }
-    */
+
+    public Boolean attemptNumDumbBomb(final int numDumbBomb) {
+        Boolean retValue = Boolean.TRUE;
+
+        try {
+            this.setNumDumbBomb(numDumbBomb);
+            return Boolean.TRUE;
+        } catch (Exception e) {
+            return Boolean.FALSE;
+        }
+    }
+
+    public int getNumDumbBomb() {
+        return Integer.parseInt(numDumbBombDropdown.getAttribute("value"));
+    }
+
+    //Recon pod
+    @FindBy(id = RECON_POD_CHECKBOX)
+    private WebElement reconPodCheckbox;
+
+    public void selectReconPod() {
+        reconPodCheckbox.click();
+    }
+
+    public Boolean isReconPodSelected () {
+        return reconPodCheckbox.isSelected();
+    }
+
+    //Intelli bomb
+    @FindBy(id = INTELLI_BOMB_CHECKBOX)
+    private WebElement intelliBombCheckbox;
+
+    public void selectIntelliBomb() {
+        intelliBombCheckbox.click();
+    }
+
+    public Boolean isIntelliBombSelected () {
+        return intelliBombCheckbox.isSelected();
+    }
+
+    //Fuel Tank
+    @FindBy(id = FUEL_TANK_CHECKBOX)
+    private WebElement fuelTankCheckbox;
+
+    public void selectFuelTank() {
+        fuelTankCheckbox.click();
+    }
+
+    public Boolean isFuelTankSelected () {
+        return fuelTankCheckbox.isSelected();
+    }
 
     //Set equipment button
     @FindBy(id = LOAD_BUTTON)
@@ -87,9 +150,13 @@ public class EquipmentPage extends BasePage {
         loadButton.click();
     }
 
-    // ACTIONS
+    //Restart button
+    private static final String RESTART_BUTTON = "restartButton";
+    @FindBy(id = RESTART_BUTTON)
+    private WebElement restartButton;
 
-    // RETURN VALUES
-
+    public void clickRestartButton() {
+        restartButton.click();
+    }
 
 }

@@ -10,7 +10,7 @@ public class BaseTest {
     protected SeleniumInstance seleniumInstance;
     protected Boolean testPasses;
     protected static TestProperties testProperties;
-    private static TestLog testLog;
+    protected static TestLog testLog;
 
 
     @Rule
