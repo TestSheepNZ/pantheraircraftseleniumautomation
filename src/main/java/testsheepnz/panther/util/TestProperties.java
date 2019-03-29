@@ -9,11 +9,11 @@ import java.util.Properties;
 
 
 enum BrowserType {
-    CHROME, FIREFOX;
+    CHROME, FIREFOX, CHROME_HEADLESS
 }
 
 enum MachineType {
-    WINDOWS, MAC, LINUX;
+    WINDOWS, MAC, LINUX
 }
 
 public class TestProperties {
@@ -26,6 +26,14 @@ public class TestProperties {
     private long maxWait;
     private int browserWidth;
     private int browserHeight;
+
+    private static final String CHROME_BROWSER_STR = "CHROME_BROWSER";
+    private static final String FIREFOX_BROWSER_STR = "FIREFOX_BROWSER";
+    private static final String CHROME_HEADLESS_STR = "CHROME_HEADLESS";
+
+    private static final String WINDOWS_STR = "WINDOWS";
+    private static final String LINUX_STR = "LINUX";
+    private static final String MAC_STR = "MAC";
 
     public TestProperties() {
         Properties prop = new Properties();
@@ -42,13 +50,12 @@ public class TestProperties {
             this.setBrowserType(prop.getProperty("browser"));
 
             //Set machine type
-            this.setBrowserType(prop.getProperty("machine_type"));
             switch (prop.getProperty("machine_type")) {
-                case "MAC":
+                case MAC_STR :
                     machineInUse = MachineType.MAC;
                     driverPath = prop.getProperty("mac_driver_path");
                     break;
-                case "LINUX":
+                case LINUX_STR:
                     machineInUse = MachineType.LINUX;
                     driverPath = prop.getProperty("linux_driver_path");
                     break;
@@ -78,39 +85,42 @@ public class TestProperties {
         }
     }
 
-    public void setBrowserType(final String newBrowser) {
+    private void setBrowserType(final String newBrowser) {
         switch (newBrowser) {
-            case "FIREFOX_BROWSER":
+            case FIREFOX_BROWSER_STR:
                 browserInUse = BrowserType.FIREFOX;
+                break;
+            case CHROME_HEADLESS_STR:
+                browserInUse = BrowserType.CHROME_HEADLESS;
                 break;
             default:
                 browserInUse = BrowserType.CHROME;
         }
     }
 
-    public BrowserType getBrowserType() {
+    BrowserType getBrowserType() {
         return browserInUse;
     }
 
-    public String getDriverPath() {
+    String getDriverPath() {
         return driverPath;
     }
 
-    public void setWebsiteToTest(final String newURL) {
+    private void setWebsiteToTest(final String newURL) {
         websiteToTest=newURL;
     }
 
-    public String getWebsiteToTest() {
+    String getWebsiteToTest() {
         return websiteToTest;
     }
 
-    public void setWebsiteHomepage(final String homeURL) {
+    private void setWebsiteHomepage(final String homeURL) {
         websiteHomepage=homeURL;
     }
 
     public String getWebsiteHomepage() { return websiteHomepage; }
 
-    public String getScreenshotsPath() {
+    String getScreenshotsPath() {
         return screenshotsPath;
     }
 
@@ -118,12 +128,34 @@ public class TestProperties {
         return maxWait;
     }
 
-    public int getBrowserHeight() {
+    int getBrowserHeight() {
         return browserHeight;
     }
 
-    public int getBrowserWidth() {
+    int getBrowserWidth() {
         return browserWidth;
+    }
+
+    String getBrowserInUse() {
+        switch(browserInUse) {
+            case FIREFOX:
+                return FIREFOX_BROWSER_STR;
+            case CHROME_HEADLESS:
+                return CHROME_HEADLESS_STR;
+            default:
+                return CHROME_BROWSER_STR;
+        }
+    }
+
+    String getMachineInUse() {
+        switch(machineInUse) {
+            case MAC:
+                return MAC_STR;
+            case LINUX:
+                return LINUX_STR;
+            default:
+                return WINDOWS_STR;
+        }
     }
 
 }

@@ -5,6 +5,8 @@ import org.junit.Test;
 import testsheepnz.panther.page.EquipmentPage;
 import org.junit.Assert;
 import testsheepnz.panther.page.HomePage;
+import testsheepnz.panther.page.StatusPage;
+import testsheepnz.panther.util.SetupAssistant;
 import testsheepnz.panther.util.TestLog;
 
 import static org.hamcrest.core.StringContains.containsString;
@@ -21,7 +23,7 @@ public class FuelLoadTest extends BaseTest {
         testLog.appendLogFileNameAccordingToTestsRun(calledFrom);
     }
 
-    // Fuel limit
+    // Fuel limit UNDER
     @Test
     public void fuelLoadOfEmptyRejected() {
         seleniumInstance.goHome();
@@ -36,6 +38,7 @@ public class FuelLoadTest extends BaseTest {
         testPasses=Boolean.TRUE;
     }
 
+    // Fuel limit OVER
     @Test
     public void fuelLoadOf0kgRejected() {
         seleniumInstance.goHome();
@@ -94,6 +97,47 @@ public class FuelLoadTest extends BaseTest {
         equipPage.clickLoadButton();
         takeScreenshot(testDescription);
         assertThat(testDescription, equipPage.getErrorMessage(), containsString(ERROR_MESSAGE_WITH_FUEL_TANKS));
+        testPasses=Boolean.TRUE;
+    }
+
+    // Fuel limit boundary
+    @Test
+    public void maxFuel3000kgWithoutFuelTanks() {
+        seleniumInstance.goHome();
+
+        SetupAssistant assistant = new SetupAssistant(seleniumInstance, testLog);
+        assistant.setUpAircraftEquipmentThenSubmit(   "3000",
+                                                8,
+                                             6,
+                                               Boolean.FALSE,
+                                               Boolean.FALSE,
+                                               Boolean.FALSE );
+
+        String testDescription = "Setup aircraft with fuel tank accepts 3000kg of fuel";
+        StatusPage statusPage = new StatusPage(seleniumInstance);
+        statusPage.waitForPage();
+        takeScreenshot(testDescription);
+        assertEquals(testDescription, statusPage.getFuelRemaining(), 3000);
+        testPasses=Boolean.TRUE;
+    }
+
+    @Test
+    public void maxFuel6000kgWithFuelTanks() {
+        seleniumInstance.goHome();
+
+        SetupAssistant assistant = new SetupAssistant(seleniumInstance, testLog);
+        assistant.setUpAircraftEquipmentThenSubmit(   "6000",
+                                                8,
+                                                6,
+                                                Boolean.FALSE,
+                                                Boolean.FALSE,
+                                                Boolean.TRUE );
+
+        String testDescription = "Setup aircraft with fuel tank accepts 6000kg of fuel";
+        StatusPage statusPage = new StatusPage(seleniumInstance);
+        statusPage.waitForPage();
+        takeScreenshot(testDescription);
+        assertEquals(testDescription, statusPage.getFuelRemaining(), 6000);
         testPasses=Boolean.TRUE;
     }
 

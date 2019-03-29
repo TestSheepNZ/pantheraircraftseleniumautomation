@@ -31,7 +31,6 @@ public class TestLog {
 
     private String fileNameWithHTML;
     private static final String HTML_EXTENSION = ".html";
-
     private static final String IMG_FOLDER = "img";
 
     /*
@@ -45,7 +44,7 @@ public class TestLog {
         String uniqueName = generateString.getUniqueName();
         String testLogStr = "Test log " + generateString.getCurrentDate();
         fileName = testProperties.getScreenshotsPath() + "/" + uniqueName + "-" + testLogStr;
-        fileNameWithHTML = fileName + ".html";
+        fileNameWithHTML = fileName + HTML_EXTENSION;
 
         try {
             FileWriter fileWriter = new FileWriter(fileNameWithHTML);
@@ -62,6 +61,7 @@ public class TestLog {
             fileWriter.write("");
             fileWriter.write("\t\t<h1>" + testLogStr + "</h1>");
             fileWriter.write("\t\t<p>This page gives an overview of the recent test run initiated at " + generateString.getJustTime() + " on " + generateString.getJustDate() + "</p>");
+            fileWriter.write("\t\t<p>Using a " + testProperties.getBrowserInUse() + " browser on a " + testProperties.getMachineInUse() + " machine.</p>");
             fileWriter.close();
         } catch (Exception e) {
             e.printStackTrace();
@@ -70,7 +70,7 @@ public class TestLog {
 
     public void appendLogFileNameAccordingToTestsRun(String calledFrom) {
         String oldFileLocation = fileNameWithHTML;
-        fileNameWithHTML = fileName + "-" + calledFrom + ".html";
+        fileNameWithHTML = fileName + "-" + calledFrom + HTML_EXTENSION;
 
         try {
             Path temp = Files.move(Paths.get(oldFileLocation), Paths.get(fileNameWithHTML));

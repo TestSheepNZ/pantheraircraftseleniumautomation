@@ -7,6 +7,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 
 
@@ -17,7 +18,7 @@ public class SeleniumInstance {
 
     private WebDriver driver;
     private WebDriverWait wait;
-    TestProperties testProperties;
+    private TestProperties testProperties;
 
     //private static final int TIMEOUT = 5;
     //private static final int POLLING = 100;
@@ -32,11 +33,19 @@ public class SeleniumInstance {
     }
 
     private void launchDriver() {
+        String chromeDriverPath = testProperties.getDriverPath() + "chromedriver.exe";
+        String firefoxDriverPath = testProperties.getDriverPath() + "geckodriver.exe";
         if(testProperties.getBrowserType().equals(BrowserType.FIREFOX)) {
-            System.setProperty("webdriver.gecko.driver", testProperties.getDriverPath() + "geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", firefoxDriverPath);
             driver = new FirefoxDriver();
+        } else if (testProperties.getBrowserType().equals(BrowserType.CHROME_HEADLESS)) {
+            ChromeOptions chromeOptions = new ChromeOptions();
+            //chromeOptions.setBinary("/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Canary");
+            chromeOptions.addArguments("headless");
+            System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+            driver = new ChromeDriver(chromeOptions);
         } else {
-            System.setProperty("webdriver.chrome.driver", testProperties.getDriverPath() + "chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", chromeDriverPath);
             driver = new ChromeDriver();
         }
 
