@@ -117,7 +117,7 @@ public class FuelLoadTest extends BaseTest {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         takeScreenshot(testDescription);
-        assertEquals(testDescription, statusPage.getFuelRemaining(), 3000);
+        assertEquals(testDescription, 3000, statusPage.getFuelRemaining());
         testPasses=Boolean.TRUE;
     }
 
@@ -137,7 +137,7 @@ public class FuelLoadTest extends BaseTest {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         takeScreenshot(testDescription);
-        assertEquals(testDescription, statusPage.getFuelRemaining(), 6000);
+        assertEquals(testDescription, 6000, statusPage.getFuelRemaining());
         testPasses=Boolean.TRUE;
     }
 

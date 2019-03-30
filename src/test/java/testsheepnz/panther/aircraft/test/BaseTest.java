@@ -7,7 +7,7 @@ import testsheepnz.panther.util.TestLog;
 import testsheepnz.panther.util.TestProperties;
 
 public class BaseTest {
-    protected SeleniumInstance seleniumInstance;
+    protected static SeleniumInstance seleniumInstance;
     protected Boolean testPasses;
     protected static TestProperties testProperties;
     protected static TestLog testLog;
@@ -20,18 +20,20 @@ public class BaseTest {
     @BeforeClass
     public static void createLogFile() {
         testProperties = new TestProperties();
+        seleniumInstance = new SeleniumInstance(testProperties);
         testLog = new TestLog(testProperties);
     }
 
     @AfterClass
     public static void closeLogFile() {
+        seleniumInstance.quit();
         testLog.closeLog();
     }
 
     //Actions before and after each suite of tests
     @Before
     public void setUpBrowser() {
-        seleniumInstance = new SeleniumInstance(testProperties);
+
 
         //seleniumInstance.maximize();
         seleniumInstance.setBrowserSize();
@@ -48,7 +50,7 @@ public class BaseTest {
 
         this.takeScreenshot(responseString);
         testLog.closeTable();
-        seleniumInstance.quit();
+
     }
 
     //Actions before and after each individual test

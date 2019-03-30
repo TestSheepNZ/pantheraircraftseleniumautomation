@@ -32,7 +32,7 @@ public class StatusFormTests extends BaseTest {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         takeScreenshot(testDescription);
-        assertEquals(testDescription, statusPage.getWeight(), 17000);
+        assertEquals(testDescription, 17000, statusPage.getWeight());
         testPasses=Boolean.TRUE;
     }
 
@@ -47,7 +47,7 @@ public class StatusFormTests extends BaseTest {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         takeScreenshot(testDescription);
-        assertEquals(testDescription, statusPage.getLegNumber(), 0);
+        assertEquals(testDescription, 0, statusPage.getLegNumber());
         testPasses=Boolean.TRUE;
     }
 
@@ -62,7 +62,7 @@ public class StatusFormTests extends BaseTest {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         takeScreenshot(testDescription);
-        assertEquals(testDescription, statusPage.getHeight(), 0);
+        assertEquals(testDescription, 0, statusPage.getHeight());
         testPasses=Boolean.TRUE;
     }
 
@@ -77,7 +77,7 @@ public class StatusFormTests extends BaseTest {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         takeScreenshot(testDescription);
-        assertEquals(testDescription, statusPage.getFuelRemaining(), 2000);
+        assertEquals(testDescription, 2000, statusPage.getFuelRemaining());
         testPasses=Boolean.TRUE;
     }
 
@@ -92,7 +92,7 @@ public class StatusFormTests extends BaseTest {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         takeScreenshot(testDescription);
-        assertEquals(testDescription, statusPage.getFuelUsedLastLeg(), 0);
+        assertEquals(testDescription, 0, statusPage.getFuelUsedLastLeg());
         testPasses=Boolean.TRUE;
     }
 
