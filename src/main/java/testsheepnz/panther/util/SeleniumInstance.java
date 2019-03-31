@@ -21,7 +21,8 @@ public class SeleniumInstance {
     private TestProperties testProperties;
 
     //private static final int TIMEOUT = 5;
-    //private static final int POLLING = 100;
+    private static final int POLLING = 100;
+
     private SeleniumInstance() {
         testProperties = new TestProperties();
         this.launchDriver();
@@ -49,7 +50,7 @@ public class SeleniumInstance {
             driver = new ChromeDriver();
         }
 
-        wait = new WebDriverWait(driver, 50, 100);
+        wait = new WebDriverWait(driver, testProperties.getMaxWait(), POLLING);
         //wait = new WebDriverWait(driver, testProperties.getMaxWait());
     }
 

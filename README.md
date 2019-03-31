@@ -14,4 +14,11 @@ The useful_resource.html page contains a lot of the resources explaining items w
 The test.properties sets up and configures this test suite including,
 * Where the item under test lives
 * Which browser is in use
-* Why kind of computer it's being run on
+* Which kind of computer it's being run on
+* Max wait
+
+In case the conference wi-fi becomes a problem, you can find the webpages under src/main/resources/website, and can define the path to them using the form,
+
+file:///C:/Users/OEM/IdeaProjects/pantheraircraftseleniumautomation/src/main/resources/website/panther.html
+
+This will be specific to your machine.
