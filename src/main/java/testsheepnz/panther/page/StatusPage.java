@@ -85,6 +85,17 @@ public class StatusPage extends BasePage {
         dropdown.selectByVisibleText(moveOptionStr);
     }
 
+    public void setCruise() {
+        this.setMoveByText("Cruise");
+    }
+
+    public void setDive() {
+        this.setMoveByText("Dive");
+    }
+
+    public void setClimb() {
+        this.setMoveByText("Climb");
+    }
     //Restart button
     private static final String RESTART_BUTTON = "restartButton";
     @FindBy(id = RESTART_BUTTON)

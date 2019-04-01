@@ -101,4 +101,25 @@ public class SetupAssistant {
 
     }
 
+    // Select apply / dive / cruise - all assume on the Status form
+    public void selectCruise() {
+        StatusPage statusPage = new StatusPage(seleniumInstance);
+        statusPage.waitForPage();
+        statusPage.setCruise();
+    }
+
+    public void selectClimb() {
+        StatusPage statusPage = new StatusPage(seleniumInstance);
+        statusPage.waitForPage();
+        statusPage.setClimb();
+    }
+
+    public void selectDive() {
+        StatusPage statusPage = new StatusPage(seleniumInstance);
+        statusPage.waitForPage();
+        statusPage.setDive();
+    }
+
+
+
 }
