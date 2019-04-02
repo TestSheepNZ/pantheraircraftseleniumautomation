@@ -9,11 +9,11 @@ import testsheepnz.panther.page.HomePage;
 import static org.hamcrest.core.StringContains.containsString;
 import static org.junit.Assert.*;
 
-public class EquipmentFormTests extends BaseTest {
+public class EquipmentFormTest extends BaseTest {
 
     @BeforeClass
     public static void setAppropriateLogName() {
-        String calledFrom = "EquipmentFormTests";
+        String calledFrom = "EquipmentFormTest";
         testLog.appendLogFileNameAccordingToTestsRun(calledFrom);
     }
 

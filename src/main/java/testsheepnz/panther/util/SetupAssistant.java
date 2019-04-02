@@ -1,18 +1,7 @@
 package testsheepnz.panther.util;
 
-import testsheepnz.panther.page.EquipmentPage;
+import testsheepnz.panther.page.*;
 
-import org.junit.BeforeClass;
-import org.junit.Test;
-import testsheepnz.panther.page.EquipmentPage;
-import org.junit.Assert;
-import testsheepnz.panther.page.HomePage;
-import testsheepnz.panther.page.StatusPage;
-import testsheepnz.panther.util.SetupAssistant;
-import testsheepnz.panther.util.TestLog;
-
-import static org.hamcrest.core.StringContains.containsString;
-import static org.junit.Assert.*;
 
 /*
  * This class helps with tests by doing a lot of setup for certain pages
@@ -30,8 +19,8 @@ public class SetupAssistant {
         this.testLog=log;
     }
 
-    public void setupStandardEquipment(String fuel) {
-        setUpAircraftEquipmentThenSubmit(  fuel,
+    public void setupStandardAircraftFromEquipmentForm(String fuel) {
+        setUpAircraftFromEquipmentForm(  fuel,
                                 6,
                              4,
                                             Boolean.FALSE,
@@ -39,28 +28,12 @@ public class SetupAssistant {
                                             Boolean.FALSE);
     }
 
-    public void setUpAircraftEquipmentThenSubmit(  String   fuel,
-                                                   int      numMissiles,
-                                                   int      numDumbBombs,
-                                                   Boolean  reconPod,
-                                                   Boolean  intelliBomb,
-                                                   Boolean  externalFuelTanks) {
-        setUpAircraftEquipment( fuel,
-                                numMissiles,
-                                numDumbBombs,
-                                reconPod,
-                                intelliBomb,
-                                externalFuelTanks);
-        EquipmentPage equipPage = new EquipmentPage(seleniumInstance);
-        equipPage.clickLoadButton();
-    }
-
-    private void setUpAircraftEquipment(String   fuel,
-                                       int      numMissiles,
-                                       int      numDumbBombs,
-                                       Boolean  reconPod,
-                                       Boolean  intelliBomb,
-                                       Boolean  externalFuelTanks) {
+    public void setUpAircraftFromEquipmentForm(String   fuel,
+                                               int      numMissiles,
+                                               int      numDumbBombs,
+                                               Boolean  reconPod,
+                                               Boolean  intelliBomb,
+                                               Boolean  externalFuelTanks) {
         //Assumes you are already where you need to be on equipment page
         EquipmentPage equipPage = new EquipmentPage(seleniumInstance);
         equipPage.waitForPage();
@@ -97,29 +70,79 @@ public class SetupAssistant {
             testDescription += "<br>Fuel tanks";
         }
 
-        testLog.addScreenshot(seleniumInstance.getDriver(), "setUpAircraftEquipment", testDescription);
+        testLog.addScreenshot(seleniumInstance.getDriver(), "setUpAircraftFromEquipmentForm", testDescription);
 
     }
 
+    public void selectLoadFromEquipmentForm() {
+        EquipmentPage equipPage = new EquipmentPage(seleniumInstance);
+        equipPage.waitForPage();
+        equipPage.clickLoadButton();
+    }
+
+
     // Select apply / dive / cruise - all assume on the Status form
-    public void selectCruise() {
+    public void selectCruiseFromStatusForm() {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         statusPage.setCruise();
     }
 
-    public void selectClimb() {
+    public void selectClimbFromStatusForm() {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         statusPage.setClimb();
     }
 
-    public void selectDive() {
+    public void selectDiveFromStatusForm() {
         StatusPage statusPage = new StatusPage(seleniumInstance);
         statusPage.waitForPage();
         statusPage.setDive();
     }
 
+    public void applyCruiseFromCruiseForm(String speed, String distance) {
+        CruisePage cruisePage = new CruisePage(seleniumInstance);
+        cruisePage.waitForPage();
+        cruisePage.setSpeed(speed);
+        cruisePage.setDistance(distance);
+        cruisePage.applyCruiseButton();
+        cruisePage.waitForPageToVanish();
+    }
 
+    public void applyDiveFromDiveForm(String altitude) {
+        DivePage divePage = new DivePage(seleniumInstance);
+        divePage.waitForPage();
+        divePage.setDiveAltitude(altitude);
+        divePage.clickApplyButton();
+        divePage.waitForPageToVanish();
+    }
+
+    public void applyClimbFromClimbForm(String altitude) {
+        ClimbPage climbPage = new ClimbPage(seleniumInstance);
+        climbPage.waitForPage();
+        climbPage.setClimbAltitude(altitude);
+        climbPage.clickApplyButton();
+        climbPage.waitForPageToVanish();
+    }
+
+    public void setHeightFromStatusForm(String newAltitude) {
+        StatusPage statusPage = new StatusPage(seleniumInstance);
+        statusPage.waitForPage();
+        int currentAltitude = statusPage.getHeight();
+        int intNewAlt = Integer.parseInt(newAltitude);
+
+        if (currentAltitude > intNewAlt) {
+            this.selectDiveFromStatusForm();
+            this.applyDiveFromDiveForm(newAltitude);
+        } else {
+            this.selectClimbFromStatusForm();
+            this.applyClimbFromClimbForm(newAltitude);
+        }
+    }
+
+    public String getErrorMessage() {
+        StatusPage statusPage = new StatusPage(seleniumInstance);
+        return statusPage.getErrorMessage();
+    }
 
 }

@@ -26,23 +26,22 @@ public class BaseTest {
 
     @AfterClass
     public static void closeLogFile() {
-        seleniumInstance.quit();
+        if (testProperties.getShutBrowserWhenDone().equals(Boolean.TRUE)) {
+            seleniumInstance.quit();
+        }
         testLog.closeLog();
     }
 
     //Actions before and after each suite of tests
     @Before
-    public void setUpBrowser() {
-
-
-        //seleniumInstance.maximize();
+    public void setUpBrowserAndLog() {
         seleniumInstance.setBrowserSize();
         testPasses = Boolean.FALSE;
         testLog.openTable(name.getMethodName());
     }
 
     @After
-    public void quitBrowser() {
+    public void closeLogEntry() {
         String responseString = "<b>TEST PASS</b>";
         if (testPasses.equals(Boolean.FALSE)){
             responseString = "<b>TEST FAIL</b>";

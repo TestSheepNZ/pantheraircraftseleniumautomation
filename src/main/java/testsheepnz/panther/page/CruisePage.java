@@ -1,12 +1,8 @@
 package testsheepnz.panther.page;
 
-import org.hamcrest.BaseDescription;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import testsheepnz.panther.util.SeleniumInstance;
 import org.openqa.selenium.By;
 
@@ -16,7 +12,7 @@ public class CruisePage extends BasePage {
     private static final String CRUISE_FORM = "cruiseForm";
     private static final String CRUISE_SPEED_FIELD = "aircraftSpeed";
     private static final String CRUISE_DISTANCE_FIELD = "aircraftDistance";
-    private static final String CRUISE_APPLY_BUTTON = "applyCruise";
+    private static final String CRUISE_APPLY_BUTTON = "applyCruiseButton";
 
     public CruisePage(SeleniumInstance test) {
         super(test);
@@ -39,6 +35,7 @@ public class CruisePage extends BasePage {
     public int getSpeed() { return Integer.parseInt(speedField.getAttribute("value")); }
 
     public void setSpeed(final String enterStr) {
+        speedField.clear();
         speedField.sendKeys(enterStr);
     }
 
@@ -49,15 +46,16 @@ public class CruisePage extends BasePage {
     public int getDistance() { return Integer.parseInt(distanceField.getAttribute("value")); }
 
     public void setDistance(final String enterStr) {
+        distanceField.clear();
         distanceField.sendKeys(enterStr);
     }
 
     //Select apply button
     @FindBy(id = CRUISE_APPLY_BUTTON)
-    private WebElement applyButton;
+    private WebElement applyCruiseButton;
 
-    public void clickApplyButton() {
-        applyButton.click();
+    public void applyCruiseButton() {
+        applyCruiseButton.click();
     }
 
 }

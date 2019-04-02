@@ -46,11 +46,8 @@ public class EquipmentPage extends BasePage {
     private WebElement fuelField;
 
     public void setInitialFuelField(final String enterStr) {
-        fuelField.sendKeys(enterStr);
-    }
-
-    public void clearInitialFuelField() {
         fuelField.clear();
+        fuelField.sendKeys(enterStr);
     }
 
     public String getInitialFuelField() {

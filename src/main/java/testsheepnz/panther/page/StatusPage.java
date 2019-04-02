@@ -35,7 +35,7 @@ public class StatusPage extends BasePage {
     @FindBy(id = STATUS_ERROR_MSG)
     private WebElement errorMessage;
 
-    private String getErrorMessage() { return errorMessage.getText();}
+    public String getErrorMessage() { return errorMessage.getText();}
 
     public Boolean errorMessageIsBlank() { return this.getErrorMessage().isEmpty(); }
 
@@ -61,13 +61,13 @@ public class StatusPage extends BasePage {
     @FindBy(id = FUEL_REMAINING_FIELD)
     private WebElement fuelField;
 
-    public int getFuelRemaining() { return Integer.parseInt(fuelField.getAttribute("value")); }
+    public int getFuelRemaining() { return Math.round(Float.parseFloat(fuelField.getAttribute("value"))); }
 
     //Fuel remaining field
     @FindBy(id = FUEL_LAST_LEG_FIELD)
     private WebElement fuelUsedLastLegField;
 
-    public int getFuelUsedLastLeg() { return Integer.parseInt(fuelUsedLastLegField.getAttribute("value")); }
+    public int getFuelUsedLastLeg() { return Math.round(Float.parseFloat(fuelUsedLastLegField.getAttribute("value"))); }
 
     //Move type dropdown
     @FindBy(id = MOVE_TYPE_DROPDOWN)
