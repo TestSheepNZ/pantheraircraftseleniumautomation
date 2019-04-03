@@ -1,13 +1,24 @@
 package testsheepnz.panther.aircraft.test;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
+import testsheepnz.panther.page.ClimbPage;
 import testsheepnz.panther.page.StatusPage;
 import testsheepnz.panther.util.SetupAssistant;
 
+import static org.hamcrest.core.StringContains.containsString;
 import static org.junit.Assert.*;
 
 
 public class StatusFormTest extends BaseTest {
+
+    @BeforeClass
+    public static void setAppropriateLogName() {
+        String calledFrom = "DiveTest";
+        testLog.appendLogFileNameAccordingToTestsRun(calledFrom);
+    }
+
+
 
     @Test
     public void aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight() {
