@@ -14,11 +14,9 @@ public class StatusFormTest extends BaseTest {
 
     @BeforeClass
     public static void setAppropriateLogName() {
-        String calledFrom = "DiveTest";
+        String calledFrom = "StatusTest";
         testLog.appendLogFileNameAccordingToTestsRun(calledFrom);
     }
-
-
 
     @Test
     public void aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight() {
