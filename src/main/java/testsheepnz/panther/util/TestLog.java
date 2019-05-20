@@ -3,28 +3,18 @@ package testsheepnz.panther.util;
 import org.openqa.selenium.WebDriver;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.io.FileHandler;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class TestLog {
-    private GenerateStringFromTime generateString;
+    private LogNamingUtil generateDateString;
     private TestProperties testProperties;
     //private FileWriter fileWriter;
     private String fileName;
@@ -38,12 +28,11 @@ public class TestLog {
      * Consequentally, the file will need to be moved (see appendLogFileNameAccordingToTestsRun below)
      */
     public TestLog(TestProperties properties) {
-        generateString = new GenerateStringFromTime();
+        generateDateString = new LogNamingUtil();
         testProperties = properties;
 
-        String uniqueName = generateString.getUniqueName();
-        String testLogStr = "Test log " + generateString.getCurrentDate();
-        fileName = testProperties.getScreenshotsPath() + "/" + uniqueName + "-" + testLogStr;
+        String testLogStr = generateDateString.getCurrentDateWithSeconds() + "-Test log";
+        fileName = testProperties.getScreenshotsPath() + "/" + testLogStr;
         fileNameWithHTML = fileName + HTML_EXTENSION;
 
         try {
@@ -60,7 +49,7 @@ public class TestLog {
             fileWriter.write("    <body>");
             fileWriter.write("");
             fileWriter.write("\t\t<h1>" + testLogStr + "</h1>");
-            fileWriter.write("\t\t<p>This page gives an overview of the recent test run initiated at " + generateString.getJustTime() + " on " + generateString.getJustDate() + "</p>");
+            fileWriter.write("\t\t<p>This page gives an overview of the recent test run initiated at " + generateDateString.getJustTime() + " on " + generateDateString.getJustDate() + "</p>");
             fileWriter.write("\t\t<p>Using a " + testProperties.getBrowserInUse() + " browser on a " + testProperties.getMachineInUse() + " machine.</p>");
             fileWriter.close();
         } catch (Exception e) {
@@ -118,7 +107,7 @@ public class TestLog {
     }
 
     public void addScreenshot(WebDriver driver, String testName, String description) {
-        String imgFile = IMG_FOLDER + "/" + generateString.getUniqueName() + "-" + testName + ".gif";
+        String imgFile = IMG_FOLDER + "/" + generateDateString.getCurrentDateToMillisecond() + "-" + testName + ".gif";
 
         //take screenshot
         TakesScreenshot scrShot =((TakesScreenshot)driver);
@@ -135,9 +124,9 @@ public class TestLog {
         try {
             FileWriter fileWriter = new FileWriter(fileNameWithHTML, true);
             fileWriter.write("\t\t<tr>");
-            fileWriter.write("\t\t\t<td>"+generateString.getJustTime()+"</td>");
-            fileWriter.write("\t\t\t<td>"+description+"</td>");
-            fileWriter.write("\t\t\t<td><img src=\""+imgFile+"\" width=\"" + testProperties.getBrowserWidth()
+            fileWriter.write("\t\t\t<td>" + generateDateString.getJustTime() + "</td>");
+            fileWriter.write("\t\t\t<td>" + description + "</td>");
+            fileWriter.write("\t\t\t<td><img src=\"" + imgFile + "\" width=\"" + testProperties.getBrowserWidth()
                     + "\" height=\"" + testProperties.getBrowserHeight() + "\"></td>");
             fileWriter.write("\t\t</tr>");
             fileWriter.close();
