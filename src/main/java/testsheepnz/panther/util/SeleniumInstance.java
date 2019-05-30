@@ -68,6 +68,7 @@ public class SeleniumInstance {
 
     public void goHome() {
         driver.get(testProperties.getWebsiteToTest());
+        driver.get(testProperties.getWebsiteToTest() + "#calculator");
     }
 
     public void quit() {

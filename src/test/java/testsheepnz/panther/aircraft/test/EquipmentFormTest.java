@@ -25,8 +25,7 @@ public class EquipmentFormTest extends BaseTest {
         HomePage homePage = new HomePage(seleniumInstance);
         homePage.waitForPage();
         takeScreenshot(testDescription);
-        //assertTrue(homePage.getTitle());
-        assertThat(testDescription, seleniumInstance.getTitle(), containsString("TestSheepNZ's page"));
+        assertThat(testDescription, seleniumInstance.getTitle(), containsString("TestSheepNZ Resource Page"));
 
         testDescription = "Clicking ODM button takes to Panther Fuel Calculator titled page";
         homePage.clickODMButton();

@@ -25,8 +25,8 @@ public class StatusFormTest extends BaseTest {
         //Use assistant to setup aircraft
         SetupAssistant assistant = new SetupAssistant(seleniumInstance, testLog);
         assistant.setUpAircraftFromEquipmentForm(   "6000",
-                                        8,
-                                    6,
+                                                    8,
+                                                6,
                                                    Boolean.FALSE,
                                                    Boolean.FALSE,
                                                    Boolean.TRUE );
