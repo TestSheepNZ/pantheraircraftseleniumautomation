@@ -14,7 +14,12 @@
 .faces-config.xml.jsfdia
 
 
+#Built areas
+
 /target/
 /bin/
-/src/main/resources/screenshots
 
+
+# Ignore log items
+/src/main/resources/screenshots/*.html
+/src/main/resources/screenshots/img/*.gif
