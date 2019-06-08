@@ -6,8 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="panther-aircraft-selenium-automation" />
         <module name="pantheraircraftseleniumautomation" />
+        <module name="panther-aircraft-selenium-automation" />
       </profile>
     </annotationProcessing>
   </component>
