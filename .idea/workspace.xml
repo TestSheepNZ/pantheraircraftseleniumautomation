@@ -2,776 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff706770-a1a9-4acd-963d-d7033557dfc3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testsheepnz/panther/util/SeleniumInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testsheepnz/panther/util/SeleniumInstance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers.linux/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers.linux/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers.mac/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers.mac/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/drivers.windows/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/drivers.windows/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/EquipmentFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/EquipmentFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/StatusFormTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/StatusFormTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/pantheraircraftseleniumautomation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers.linux/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/drivers.linux/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers.mac/chromedriver" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/drivers.mac/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/drivers.windows/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/drivers.windows/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LLYJCTBQ-Test log 201903291532-EquipmentFormTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LMSWBGYF-Test log 201904011111-EquipmentFormTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LMSWCWUV-Test log 201904011112-FuelLoadTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LMSWDTOU-Test log 201904011112.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LNHEIKDF-Test log 201904031026-ClimbTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LNHELORR-Test log 201904031027-CruiseTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LNHEMVAE-Test log 201904031028-DiveTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LNHEODNF-Test log 201904031028-EquipmentFormTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LNHEQEQK-Test log 201904031029-FuelLoadTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/LNHERCEQ-Test log 201904031029.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWVPYTV-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWVPZJJ-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWVQGTZ-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWVQHGW-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWVQOTV-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWVQPHE-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWHWSO-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWHXXK-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWIFCR-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWIFUC-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWIGGF-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWINMY-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWIOEZ-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWIVKH-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWIVZB-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJDST-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJEJZ-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJEXM-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJMGA-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJMVJ-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJNJF-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJVCV-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJWJP-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWJWVK-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWKFOK-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWKGKU-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWKGYJ-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWKOLM-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWKPFK-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWKZDC-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWKZUH-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWLIRB-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWLJGH-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWLJVB-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWLTHL-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWLTZV-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWMENG-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWMFKB-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWMNDV-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWMNVD-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWMVRD-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWMWJT-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWMWYI-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWNEOS-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWNFDX-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWNFPV-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWNMXO-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWNNWZ-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWNVFL-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWNVYB-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWODNT-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWOEBW-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWOLOC-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWOMMU-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWOUEB-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWOVCH-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWOVQC-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWPDMI-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWPEEA-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWPLRX-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWPMIL-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWPMUR-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWPUJK-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWPUXI-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWQCHQ-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWQCUO-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWQKKQ-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWQKZX-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWQTBD-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWQTPW-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWRBAW-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLWWRBPF-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXBZLQQ-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXBZMON-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXBZTUW-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXBZULB-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXBZUVY-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCACBZ-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCACUQ-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCAKEB-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCAKTE-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCARVH-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCASMA-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCASYZ-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBAJI-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBBAJ-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBBPD-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBJIS-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBKRA-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBLCF-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBSGJ-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBSXG-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCBTKU-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCAKG-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCBAW-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCIMF-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCIZR-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCQGU-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCQVQ-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCRJH-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCYNO-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCCZCF-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCDGCT-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCDGUA-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCDOEH-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCDOUB-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCDVZC-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCDWOC-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCDXAQ-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCEEDN-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCEESI-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCEFDS-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCEMFJ-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCENAC-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCEUBL-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCEUSQ-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCFBWB-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCFCKN-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCFJNK-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCFKEM-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCFRKA-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCFSDD-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCFSPN-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCFZUY-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCGAZN-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCGJKO-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCGKBZ-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCGKPG-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCGSDZ-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCGSRI-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCHASC-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCHBGP-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCHIUK-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCHJIO-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCHRFD-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCHRSV-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCHZVX-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXCIALT-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEAHAU-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEAHWU-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEAPEH-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEAPSX-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEAQEV-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEAXJO-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEAXZW-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEBFAE-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEBFPE-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEBMZG-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEBNMW-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEBNZA-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEHLTO-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEHMON-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEHUDK-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEHURT-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEHVET-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXETGNS-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXETHNH-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEVZZW-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEWAOX-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEWASD-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEWKTV-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEWLEA-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEYDUM-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEYEQR-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEYNYH-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEYOLO-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEYOPZ-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEYXAK-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEYXHS-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEZFUB-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEZFYT-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEZNVU-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEZOJS-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEZOON-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEZXER-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEZXQV-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXEZXUK-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFAGKN-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFAGYU-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFAHCL-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFAPUZ-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFAQNY-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFAQSH-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFAZKA-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFAZSE-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFBIKR-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFBIPB-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFBQOW-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFBRBJ-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFBRFP-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFBYUZ-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFBYYL-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFCGIG-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFCGQX-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFCPDV-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFCPNR-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFCYWR-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFCZIT-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFCZMV-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFDHJB-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFDHVG-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFDHYW-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFDPMR-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFDQED-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFDXFA-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFDXTM-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFEEMG-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFEEPV-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFELXO-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFEMER-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFEUAB-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFEURR-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFEUVL-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFFCLF-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFFDAP-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFFKRM-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFFLEC-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFFLJA-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFFTSF-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFFTWJ-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFGBUL-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFGBZI-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFGJYB-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFGKDO-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFGTKC-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFGTPL-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFHCRU-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXFHCWN-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKPFRN-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKPGIL-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKPNPW-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKPODI-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKPOHG-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKPVKX-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKPVRP-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKQKAZ-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKQKFZ-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKQRWT-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKQSJJ-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKQSNI-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRARY-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRBEO-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRBIY-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRJVT-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRKIU-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRKLX-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRTIM-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRUAJ-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKRUEP-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKSBSB-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKSBYY-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKSKMK-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKSKRS-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKSTAJ-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKSTOH-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKSUGU-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKTDEZ-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKTDIU-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKTKLR-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKTKWW-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKTTWE-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKTUEI-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKUCAT-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKUCOE-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKUCSF-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKUKJX-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKUKXH-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKULAM-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKUSPH-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKUTGM-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKVAZF-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKVBPB-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKVJFB-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKVJJC-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKVQFD-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKVQMS-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKVZCN-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKVZUY-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKWAAN-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKWHWH-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKWIMS-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKWQVW-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKWRIG-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKWRMO-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKWZSS-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKWZWW-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKXHXO-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKXICL-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKXPLG-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKXPPB-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKXXTU-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKXXYA-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKYFMZ-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXKYFRS-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLEPAI-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLEPRW-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLEWNK-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLEWZV-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLEXLD-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLFDZP-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLFEMY-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLFLDM-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLFLOC-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLFSIC-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLFSVJ-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLFTGQ-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGABQ-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGAOE-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGAZY-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGHRL-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGIXJ-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGJHM-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGPYI-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGQPL-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGRAP-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGXQJ-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLGYDF-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLHEWO-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLHFKK-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLHMJS-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLHMXJ-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLHNIO-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLHUCT-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLHUOM-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIBFE-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIBSZ-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIIRD-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIJER-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIPYJ-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIQKV-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIQWS-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIXPT-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIYCN-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLIYNG-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLJFEC-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLJFTC-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLJMPI-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLJNGE-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLJUBR-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLJUNP-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKBHL-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKBVA-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKIRI-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKJKF-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKJWD-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKRYP-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKSNG-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKZMM-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLKZZB-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLLAKI-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLLHFP-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLLIAT-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLLPCF-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLLPNO-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLLWJP-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLLWVL-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLMDTF-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLMEFL-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLMLBH-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLXLMLMM-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYBVTKK-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYBYQCI-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYBZXNH-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYCBWAJ-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYCBYYI-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYCBZJQ-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYEHSTQ-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYELEMD-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYELMZN-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYELNLG-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYELUVZ-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYELWHQ-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYELWSN-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYEMEGO-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYEMHVR-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYEMIIG-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYEMPUY-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYEMQWS-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYEMRKP-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYEMYXL-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYENKMH-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYENKXK-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFENCK-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFEPCL-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFEPNT-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFEXBB-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFFFXG-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFFGIZ-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFFNXF-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFFWKW-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFFWWM-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFGEPO-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFGLBX-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFGLNU-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFGTHP-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFHFCD-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFHFNL-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFIGCS-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFIHXW-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFIIJZ-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFIPQG-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFIQEV-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFIXKW-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFIXWC-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFJFDN-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFJFPE-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFJNGE-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFJQGO-maxFuel6000kgWithFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFJQRN-maxFuel6000kgWithFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFJXZR-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFJYLE-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFKFSE-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYFKGFQ-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGIYPT-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGJAKC-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGJAWK-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGRRDU-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGRRYP-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGRZFQ-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGRZVB-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGSAGR-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGSHKB-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGSIAY-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGSPET-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGSPSX-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGSXAQ-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGSXQK-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGSYCZ-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTFLP-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTFZD-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTGLA-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTOFW-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTPLQ-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTPWX-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTXBM-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTXSX-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGTYES-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGUFMT-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGUGDE-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGUNII-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGUNWL-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGUVER-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGUVRM-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGUWEQ-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGVDMB-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGVDYG-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGVLFJ-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGVLWO-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGVTFJ-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGVTTC-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWAZR-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWBOV-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWCBF-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWJFU-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWJWI-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWKJN-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWRXQ-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWSQE-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGWZVG-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGXAPR-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGXHUB-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGXIGW-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGXPJQ-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGXPYX-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGXXJO-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGXYBO-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGXYNQ-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGYFRN-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGYGIC-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGYNVF-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGYOLI-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGYOZW-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGYWRF-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGYXUH-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGYYFX-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGZFMB-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGZFYW-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGZNLD-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGZNZH-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGZVDP-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYGZVPY-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHADMU-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHAMQP-maxFuel6000kgWithFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHANDL-maxFuel6000kgWithFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHAURK-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHAVDJ-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHBDNN-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHBDZO-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHBLPI-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHBVZA-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHBWKN-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHCEAT-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHCIPU-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHCJBU-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHCQTB-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHCVSE-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHCWDX-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHDDRJ-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHDGAY-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHDGMK-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHDOIJ-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHDSOC-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYHDTAW-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJDCGL-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJDDBS-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJDKPX-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJDLFX-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJDLSH-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJDSTP-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJDTKG-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJEANG-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LLYJEBBV-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBKJT-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBLCP-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBLXJ-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBMKS-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBMWN-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBNNB-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBOAG-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBORC-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBPCA-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBPTS-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBQGA-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBQRU-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBRLT-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBRYR-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBSKP-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBVID-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBWGC-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBWRX-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBXMP-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBYBY-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBYNI-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBZDW-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWBZSN-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCALM-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCAXC-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCBSA-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCCET-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCCQX-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCDIL-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCDTL-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCEJD-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCEWN-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCFSX-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCGGI-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCGXZ-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCHKS-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCHWC-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCINX-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCIZU-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCJKT-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCKAR-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCKOA-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCLEC-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCLSA-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCMJT-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCMVP-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCNML-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCNZA-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCOTE-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCPIV-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCPUO-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCQKK-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCQXL-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCRPN-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCSCZ-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCSOT-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWCZNI-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDDHL-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDDTH-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDERK-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDFGK-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDGSW-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDHGI-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDHZX-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDIMB-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDJNS-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDMMT-maxFuel6000kgWithFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDMXW-maxFuel6000kgWithFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDNSX-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDOEC-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDOWR-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDPIF-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWDXOQ-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWEIPB-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWEJBD-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWEKAI-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWEODV-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWEOOL-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWEPPT-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWFBMR-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWFBXE-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWFCXH-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWFKEO-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWFKQG-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWFLPP-setUpAircraftEquipment.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWFWJB-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LMSWFWTX-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKOQL-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKPDP-climbFrom10000To30000ftUses200kgFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKRHQ-climbFrom10000To30000ftUses200kgFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKSFC-climbFrom10000To30000ftUses200kgFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKSSD-climbFrom10000To30000ftUses200kgFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKUBH-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKUNF-applyingClimbIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKXAX-applyingClimbIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKXOM-applyingClimbIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKYSR-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEKZEW-errorIfClimbSetWithInsufffientFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELALT-errorIfClimbSetWithInsufffientFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELBFU-errorIfClimbSetWithInsufffientFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELCKR-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELCXN-settingAltitude20000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELEIB-settingAltitude20000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELFAO-settingAltitude20000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELFRN-settingAltitude20000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELGWZ-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELHJS-climbOf30000ftUses300kgFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELJHM-climbOf30000ftUses300kgFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELJUM-climbOf30000ftUses300kgFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELUCV-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELUQM-applyingCruiseIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELWBQ-applyingCruiseIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELXIO-applyingCruiseIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELYTF-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHELZHO-standardEquipmentAtAltitude30000ftSpeed500ftsFor100nmUses238kg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMBUN-standardEquipmentAtAltitude30000ftSpeed500ftsFor100nmUses238kg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMDDW-standardEquipmentAtAltitude30000ftSpeed500ftsFor100nmUses238kg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMFCN-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMFRU-standardEquipmentAtAltitude1000ftSpeed500ftsFor100nmUses478kg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMIBE-standardEquipmentAtAltitude1000ftSpeed500ftsFor100nmUses478kg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMJGW-standardEquipmentAtAltitude1000ftSpeed500ftsFor100nmUses478kg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMKZR-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMLNM-errorIfCruiseSetWithInsufffientFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMOBQ-errorIfCruiseSetWithInsufffientFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMPHN-errorIfCruiseSetWithInsufffientFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEMPXS-errorIfCruiseSetWithInsufffientFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENJRH-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENKFE-settingAltitude10000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENLYQ-settingAltitude10000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENMQX-settingAltitude10000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENNJS-settingAltitude10000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENOAH-settingAltitude10000BecomesNewAltitude.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENPMV-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENQBD-diveFrom20000To5000UsesNoFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENRSQ-diveFrom20000To5000UsesNoFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENSTQ-diveFrom20000To5000UsesNoFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENTGL-diveFrom20000To5000UsesNoFuel.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENUNF-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENUZE-applyingDiveIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENXHQ-applyingDiveIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENYIE-applyingDiveIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHENYUY-applyingDiveIncrementsLeg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOHPW-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOIHL-canAdd8Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOJEH-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOJUV-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOKIR-toggleFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOLDD-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOLTP-canAdd0DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOMOH-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEONBL-pageOpensSuccessfully.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEONYR-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOOOH-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOPBI-toggleIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOPZZ-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOQPO-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOREC-selectingIntelliBombClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOYFZ-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEOZPY-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPAAZ-clickThroughFromHomepageWorks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPAXI-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPBQQ-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPCCW-selectingDumbBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPCVE-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPDJS-canAdd0Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPEFF-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPETA-addAReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPFQO-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPGGH-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPGTW-selectingReconPodClearsDumbBombs.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPHQB-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPIDR-addFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPIWI-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPJNL-cannotAdd7DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPKNW-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPLCJ-complexTest.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPLXA-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPMLI-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPMZX-selectingReconPodClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPNWP-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPOLI-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPOXK-toggleReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPPQX-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPQII-canAdd6DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPRDB-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPRSC-canAdd1DumbBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPSNA-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPTAB-addIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPTTD-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPUJG-cannotAdd9Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPVFG-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPVVZ-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPWJT-selectingDumbBombClearsIntelliBomb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPXBZ-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPXTP-canAdd1Missiles.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPYOP-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPZDX-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEPZQW-selectingIntelliBombClearsReconPod.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQJXR-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQLXJ-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQMKS-maxFuel3000kgWithoutFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQNGB-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQNTC-fuelLoadOfEmptyRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQOQJ-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQPDL-fuelLoadOfTextRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQQDU-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQQQC-fuelLoadOf3001kgRejectedWithNoFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQRYH-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQTSS-maxFuel6000kgWithFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQUFG-maxFuel6000kgWithFuelTanks.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQVGB-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQVVJ-fuelLoadOf6001kgRejectedWithFuelTank.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQWUQ-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEQXIA-fuelLoadOf0kgRejected.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERIKE-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERKEK-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERKRC-setupAircraftStartsWithAltitude0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERLWH-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERMQB-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERNCT-setupAircraftStartsWithLeg0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHEROKD-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERPOO-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERQCC-aircraftWith6000kgFuel8Missiles6DumbBombsExternalFuelTanksWeight.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERRHB-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERSTX-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERTHG-setupAircraftStartsWithEnteredFuel2000.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERULI-setUpAircraftFromEquipmentForm.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERWGK-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/screenshots/img/LNHERWTF-setupAircraftHasFuelLastUsedOf0.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testsheepnz/panther/util/GenerateStringFromTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testsheepnz/panther/util/SeleniumInstance.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testsheepnz/panther/util/SeleniumInstance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testsheepnz/panther/util/TestLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testsheepnz/panther/util/TestLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/pantheraircraftseleniumautomation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testsheepnz/panther/aircraft/test/EquipmentFormTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testsheepnz/panther/aircraft/test/EquipmentFormTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testsheepnz/panther/aircraft/test/StatusFormTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testsheepnz/panther/aircraft/test/StatusFormTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/screenshots/img/panther_icon.PNG" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -786,7 +18,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/EquipmentFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
+            <state relative-caret-position="440">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -795,10 +27,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/testsheepnz/panther/util/SeleniumInstance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
+            <state relative-caret-position="1232">
               <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -821,11 +53,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+            <state relative-caret-position="770">
+              <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -845,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/StatusFormTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="440">
               <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -953,10 +185,10 @@
         <option value="$PROJECT_DIR$/src/main/java/testsheepnz/panther/page/StatusPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/testsheepnz/panther/util/SetupAssistant.java" />
         <option value="$PROJECT_DIR$/src/main/java/testsheepnz/panther/page/CruisePage.java" />
-        <option value="$PROJECT_DIR$/test.properties" />
         <option value="$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/StatusFormTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/EquipmentFormTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/testsheepnz/panther/util/SeleniumInstance.java" />
+        <option value="$PROJECT_DIR$/test.properties" />
       </list>
     </option>
   </component>
@@ -967,7 +199,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -979,7 +211,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -1114,13 +345,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559258274641" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pantheraicraftseleniumbasic" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -1267,9 +499,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StatusFormTests - 2019.03.29 at 15h 03m 23s.xml">
-      <configuration name="StatusFormTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FuelLoadTest - 2019.03.29 at 15h 04m 16s.xml">
       <configuration name="FuelLoadTest" configurationId="JUnit" />
     </history-entry>
@@ -1297,6 +526,9 @@
     <history-entry file="testsheepnz_panther_aircraft_test_in_panther-aircraft-selenium-automation - 2019.05.31 at 11h 07m 01s.xml">
       <configuration name="testsheepnz.panther.aircraft.test in panther-aircraft-selenium-automation" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testsheepnz_panther_aircraft_test_in_panther-aircraft-selenium-automation - 2019.05.31 at 11h 25m 50s.xml">
+      <configuration name="testsheepnz.panther.aircraft.test in panther-aircraft-selenium-automation" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1310,7 +542,7 @@
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1532,10 +764,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/EquipmentFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testsheepnz/panther/util/SeleniumInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1232">
+          <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pantheraircraftseleniumautomation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/ClimbTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/StatusFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1573,50 +845,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/StatusFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testsheepnz/panther/aircraft/test/EquipmentFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pantheraircraftseleniumautomation.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testsheepnz/panther/util/SeleniumInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="70" column="70" selection-start-line="70" selection-start-column="70" selection-end-line="70" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="770">
+          <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
         </state>
       </provider>
     </entry>
