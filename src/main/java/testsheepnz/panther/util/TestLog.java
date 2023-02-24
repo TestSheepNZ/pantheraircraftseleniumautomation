@@ -106,8 +106,20 @@ public class TestLog {
         }
     }
 
+    private void checkImgDirectoryExists() {
+        String imgDir = testProperties.getScreenshotsPath()  + IMG_FOLDER;
+        File directory = new File(String.valueOf(imgDir));
+
+        if (!directory.exists()) {
+            directory.mkdir();
+        }
+    }
+
     public void addScreenshot(WebDriver driver, String testName, String description) {
         String imgFile = IMG_FOLDER + "/" + generateDateString.getCurrentDateToMillisecond() + "-" + testName + ".gif";
+
+        //check the img directory exists - if not, make it
+        checkImgDirectoryExists();
 
         //take screenshot
         TakesScreenshot scrShot =((TakesScreenshot)driver);
